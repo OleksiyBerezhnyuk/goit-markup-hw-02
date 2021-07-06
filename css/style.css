@@ -1,0 +1,43 @@
+:root {
+    --dominant-text-title-color:#212121;
+    --dominant-text-color:#757575;
+    --accent-color:#2196F3;
+    --dominant-body-background-color:#E5E5E5;
+    --header-background-color:#FFFFFF;
+    --hero-background-color:#2F303A;
+    --our-team-background-color:#F5F4FA;
+    --footer-background-color:#2F303A;
+}
+.body {
+    font-family: Roboto, sans-serif;
+    color: var(--dominant-text-title-color);
+    background-color: var(--dominant-body-background-color);    
+}
+.navigation-line {
+    background-color: var(--header-background-color);
+}
+.blue-logotype {
+    color: var(--accent-color);
+}
+.logotype {
+    font-weight: bold;
+    color: var(--dominant-text-title-color);
+    text-decoration: none;
+}
+.nav-link {
+    font-weight: 500;
+    color: var(--dominant-text-title-color);
+    text-decoration: none;
+}
+.nav-contact-link {
+    font-weight: 500;
+    color: var(--dominant-text-color);
+    text-decoration: none;
+}
+.nav-contact-link:hover,
+.nav-link:hover,
+.nav-contact-link:focus,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
