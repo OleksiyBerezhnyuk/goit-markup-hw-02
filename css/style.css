@@ -2,13 +2,14 @@
     --dominant-text-title-color:#212121;
     --dominant-text-color:#757575;
     --accent-color:#2196F3;
+    --white-text-color:#FFFFFF;
     --dominant-body-background-color:#E5E5E5;
     --header-background-color:#FFFFFF;
     --hero-background-color:#2F303A;
     --our-team-background-color:#F5F4FA;
     --footer-background-color:#2F303A;
 }
-.body {
+body {
     font-family: Roboto, sans-serif;
     color: var(--dominant-text-title-color);
     background-color: var(--dominant-body-background-color);    
@@ -20,6 +21,7 @@
     color: var(--accent-color);
 }
 .logotype {
+    font-family: Raleway, sans-serif;
     font-weight: bold;
     color: var(--dominant-text-title-color);
     text-decoration: none;
@@ -40,4 +42,18 @@
 .nav-link:focus {
     color: var(--accent-color);
 }
-
+.hero {
+    background-color: var(--hero-background-color);
+}
+.hero-title {
+    color: var(--white-text-color);
+    font-weight: 900;
+}
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+    font-family: Roboto, sans-serif;
+}
+.features-text {
+    color: var(--dominant-text-color);
+}
