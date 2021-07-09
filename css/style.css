@@ -14,7 +14,10 @@
 body {
     font-family: Roboto, sans-serif;
     color: var(--dominant-text-title-color);
-    background-color: var(--dominant-body-background-color);    
+    background-color: var(--dominant-body-background-color); 
+}
+body li {
+    list-style-type: none;
 }
 .navigation-line {
     background-color: var(--header-background-color);
@@ -49,12 +52,16 @@ body {
 }
 .nav-mail:hover,
 .nav-phone:hover,
-.nav-link:hover,
+.nav-link-1:hover,
+.nav-link-2:hover,
+.nav-link-3:hover,
 .footer-mail:hover,
 .footer-phone:hover,
 .nav-mail:focus,
 .nav-phone:focus,
-.nav-link:focus,
+.nav-link-1:focus,
+.nav-link-2:focus,
+.nav-link-3:focus,
 .footer-mail:focus,
 .footer-phone:focus {
     color: var(--accent-color);
@@ -98,7 +105,6 @@ body {
 .features-text-3,
 .features-text-4 {
     color: var(--dominant-text-color);
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -124,7 +130,7 @@ body {
 .team-user-2,
 .team-user-3,
 .team-user-4 {
-    background: var(--card-background);
+    background-color: var(--card-background);
 }
 .user-name-1,
 .user-name-2,
@@ -140,7 +146,6 @@ body {
 .user-profession-2,
 .user-profession-3,
 .user-profession-4 {
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -178,9 +183,6 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.portfolio-main {
-    background-color: var(--dominant-body-background-color);
-}
 .portfolio-button-1,
 .portfolio-button-2,
 .portfolio-button-3,
@@ -194,7 +196,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--dominant-text-title-color);
-    background: var(--portfolio-button-background);
+    background-color: var(--portfolio-button-background);
     cursor: pointer;
 }
 .portfolio-button-1:hover,
@@ -218,7 +220,7 @@ body {
 .portfolio-item-project-7,
 .portfolio-item-project-8,
 .portfolio-item-project-9 {
-    background: var(--card-background);
+    background-color: var(--card-background);
 }
 .portfolio-link-project-1,
 .portfolio-link-project-2,
@@ -230,7 +232,7 @@ body {
 .portfolio-link-project-8,
 .portfolio-link-project-9 {
     text-decoration: none;
-    }
+}
 .portfolio-subtitle-project-1,
 .portfolio-subtitle-project-2,
 .portfolio-subtitle-project-3,
@@ -255,7 +257,6 @@ body {
 .portfolio-text-project-7,
 .portfolio-text-project-8,
 .portfolio-text-project-9 {
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
